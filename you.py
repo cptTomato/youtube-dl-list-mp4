@@ -2,7 +2,7 @@
 import os
 
 #reading links from list.txt
-daten = open("list.txt", "a")
+daten = open("list.txt", "r")
 
 #getting links from list.txt
 for line in daten:
